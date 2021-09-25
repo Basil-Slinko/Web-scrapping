@@ -36,10 +36,10 @@ def find_articles(key_words):
             if key_word not in preview_article_str.lower():
                 continue
             else:
-                print(f'{date_time_article} — {title_article.a.span.contents[0]} — {url_article_full}')
+                print(f'{date_time_article} — {title_article.a.span.contents[0]} — \n{url_article_full}\n')
             break
 
 
 if __name__ == '__main__':
-    KEYWORDS = ['дизайн', 'фото', 'web', 'python']
+    KEYWORDS = ['дизайн', 'фото', 'web', 'python', 'data', 'it']
     find_articles(KEYWORDS)
