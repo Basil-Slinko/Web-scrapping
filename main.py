@@ -41,5 +41,5 @@ def find_articles(key_words):
 
 
 if __name__ == '__main__':
-    KEYWORDS = ['дизайн', 'фото', 'web', 'python', 'data', 'it']
+    KEYWORDS = ['дизайн', 'фото', 'web', 'python']
     find_articles(KEYWORDS)
