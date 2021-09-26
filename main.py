@@ -30,7 +30,7 @@ def find_articles(key_words):
         for indent in post_preview:
             post_preview_str += str(indent)
 
-        preview_article_str = f'{title_article.a.span.contents[0].text}{hubs_text}{post_preview_str}'
+        preview_article_str = f'{title_article.a.span.contents[0]}{hubs_text}{post_preview_str}'
 
         for key_word in key_words:
             if key_word not in preview_article_str.lower():
